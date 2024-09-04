@@ -9,6 +9,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CalculaFaturamento_3", "Cal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaturamentoMensalDistribuidora_4", "FaturamentoMensalDistribuidora_4\FaturamentoMensalDistribuidora_4.csproj", "{2A49505B-8FF2-4392-896E-0C7217D25308}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverterTexto_5", "InverterTexto_5\InverterTexto_5.csproj", "{A2E388F9-4E28-4C87-8046-05E9DCD51A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{2A49505B-8FF2-4392-896E-0C7217D25308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A49505B-8FF2-4392-896E-0C7217D25308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A49505B-8FF2-4392-896E-0C7217D25308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E388F9-4E28-4C87-8046-05E9DCD51A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E388F9-4E28-4C87-8046-05E9DCD51A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E388F9-4E28-4C87-8046-05E9DCD51A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E388F9-4E28-4C87-8046-05E9DCD51A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
