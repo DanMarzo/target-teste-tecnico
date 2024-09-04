@@ -3,7 +3,7 @@
     "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --build",
+    "build": "tsc --build ",
     "clean": "tsc --build --clean",
     "dev": "npx nodemon"
   },
@@ -13,7 +13,6 @@
   "description": "",
   "devDependencies": {
     "eslint": "^9.9.1",
-    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
 }

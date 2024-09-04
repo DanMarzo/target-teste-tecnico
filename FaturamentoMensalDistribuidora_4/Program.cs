@@ -1,6 +1,8 @@
 ﻿using FaturamentoMensalDistribuidora_4;
+try
+{
 
-var listaEstados = new List<Estado>()
+    var listaEstados = new List<Estado>()
 {
     new Estado("SP" ,67836.43M),
     new Estado("RJ" ,36678.66M),
@@ -9,12 +11,18 @@ var listaEstados = new List<Estado>()
     new Estado("Outros" ,19849.53M),
 };
 
-decimal totalFat = listaEstados.Aggregate(0M, (old, next) => old + next.Valor);
+    decimal totalFat = listaEstados.Aggregate(0M, (old, next) => old + next.Valor);
 
-Console.WriteLine($"Soma de todos os valores {totalFat}");
+    Console.WriteLine($"Soma de todos os valores {totalFat}");
 
-foreach (var estado in listaEstados)
+    foreach (var estado in listaEstados)
+    {
+        var porcentagem = estado.CalculaPorcentagem(totalFat);
+        Console.WriteLine($"Estado {estado.Nome} - valor {porcentagem:F}%");
+    }
+}
+catch (Exception ex)
 {
-    var porcentagem = estado.CalculaPorcentagem(totalFat);
-    Console.WriteLine($"Estado {estado.Nome} - valor {porcentagem:F}%");
+    Console.WriteLine("Erro inesperado.");
+    Console.WriteLine(ex.Message);
 }
