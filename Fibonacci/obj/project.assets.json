@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marzo\\OneDrive\\Área de Trabalho\\target_teste_tecnico\\TesteTecnico\\Fibonacci\\FibonacciApp.csproj",
-      "projectName": "FibonacciApp",
-      "projectPath": "C:\\Users\\marzo\\OneDrive\\Área de Trabalho\\target_teste_tecnico\\TesteTecnico\\Fibonacci\\FibonacciApp.csproj",
+      "projectUniqueName": "C:\\Users\\marzo\\OneDrive\\Área de Trabalho\\target_teste_tecnico\\TesteTecnico\\Fibonacci\\FibonacciApp_2.csproj",
+      "projectName": "FibonacciApp_2",
+      "projectPath": "C:\\Users\\marzo\\OneDrive\\Área de Trabalho\\target_teste_tecnico\\TesteTecnico\\Fibonacci\\FibonacciApp_2.csproj",
       "packagesPath": "C:\\Users\\marzo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marzo\\OneDrive\\Área de Trabalho\\target_teste_tecnico\\TesteTecnico\\Fibonacci\\obj\\",
       "projectStyle": "PackageReference",
