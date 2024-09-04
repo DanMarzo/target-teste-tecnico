@@ -1,0 +1,8 @@
+Todos os projetos (exceto a questão 3)
+Necessitam do runtime .net core 8 para executarem
+
+A questão 3 foi desenvolvida em Typescript/Javascript, por mais facilidade em obter o arquivo JSON fornecido para o teste.
+Para executar o script, é necessario instalar o node a partir da versão v20.16.0
+Comando dentro da pasta 
+
+node index.js
